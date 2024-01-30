@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    
+}
+
+.cards{
+    display: inline-block;
+    width: 20%;
+    box-sizing: border-box;
+    background-color:purple;
+    border-radius: 10px;
+    margin: 40px;
+    
+}
+.cards:hover{
+    box-shadow: 2px 2px 10px black;
+}
+.image img{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    display: block;
+
+}
+.title{
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
